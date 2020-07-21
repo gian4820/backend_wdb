@@ -1,0 +1,8 @@
+CONDITIONAL LOOPS IN EJS
+
+	*Show examples of  control flow templates
+	*Write statements of ejs file
+	*Write loops in ejs file
+
+<%=  %>  ---> Lo que pongamos dentro, sera renderizado a la pagina
+<%   %>  ---> Cuando hacemos logica, loops, if, no usamos el igual

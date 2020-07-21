@@ -1,0 +1,11 @@
+OBJETIVOS DE ESTUDIO
+
+*DEFINICION DE NPM
+*EXPLICA PORQUE NPM ES INCREIBLE
+*INTRODUCCION A PAQUETES NPM
+
+
+INSTALANDO Y USANDO PAQUETES
+
+	*npm insall -> para instalar un paquete
+	*require("")  -> para incluir el paquete en el archivo .js

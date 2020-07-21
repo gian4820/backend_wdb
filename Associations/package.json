@@ -1,0 +1,17 @@
+{
+  "name": "associations",
+  "version": "1.0.0",
+  "description": "ASSOCIATIONS",
+  "main": "embed.js",
+  "dependencies": {
+    "mongo": "^0.1.0",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gian",
+  "license": "ISC"
+}

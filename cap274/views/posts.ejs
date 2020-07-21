@@ -1,0 +1,20 @@
+<%- include("partials/head") %>
+
+
+<h1> The post Page </h1>
+
+<h3>
+	Esto actua como si fuese un posteo automatico, con el titulo y el nombre del autor. Como si fuese reddit
+</h3>
+
+<% for(var i=0; i < posts.length; i++){ %>
+<li> 
+	<%= posts[i].title %> - 
+	<strong> 
+	<%= posts[i].author %>
+	</strong>
+</li>
+	<% } %>
+
+<%- include("partials/foot") %>
+

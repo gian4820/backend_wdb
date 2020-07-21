@@ -1,0 +1,48 @@
+<!-- incluimos el header html -->
+<%- include("partials/header") %>
+
+<div class="ui main text container">
+	<div  class="ui huge header">
+		Wellcome to the MMA Blog
+		<div class="ui top attached segment">
+			<div class="ui divided items">
+				<!-- Aca trae toda la info de la bd, con el foreach  -->
+				<% blogs.forEach(function(blog){ %>
+				<div class="item">
+					<div class="image">
+						<!-- IMAGEN  -->
+						<img src="<%=blog.image%>">
+					</div>
+					<div class="content">
+						<!-- TITULO  -->
+						<a class="header" href="/blogs/<%=blog._id%>"><%=blog.title%></a>
+						
+						<!-- FECHA  -->
+						<div class="meta">
+							<span><%=blog.created.toDateString()%></span>
+						</div>
+						
+						<!-- BREVE DESCRIPCION  -->
+						<!-- Aca abajo le ponemos .substring 0 100 para que no muestre todo el texto, sino hasta 100 caracteres  -->
+						<div class="description">
+							<p><%- blog.body.substring(0, 100)%>...</p>
+						</div>
+						
+						<!-- BOTON LEER MAS  -->
+						<div class="extra">
+							<a class="ui blue basic button" href="/blogs/<%=blog._id%>">
+							Read +
+							<i class="right chevron icon"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			<%})%>
+			</div>
+		</div>
+	</div>		
+</div>
+
+
+<!-- incluimos el footer html -->
+<%- include("partials/footer") %>

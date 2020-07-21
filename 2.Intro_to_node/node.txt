@@ -1,0 +1,4 @@
+USANDO NODE
+
+*Interact with node console ->node
+*Run a file with Node. Node can read files with js code. but in the way of te server. -> (node + filename)

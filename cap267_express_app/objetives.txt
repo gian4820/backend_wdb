@@ -1,0 +1,9 @@
+NPM INIT AND Package.json
+
+* Use the --save flag to install packages:
+	tomara la version de nuestro paquete y la guardara en package.json 
+	
+*Explain what the package.json do:
+	el paquete contiene metadatos sobre 
+
+*Use "npm init" to create a new package.json

@@ -1,0 +1,12 @@
+RENDERING HTML AND TEMPLATES
+
+*Usar res.render() para renderizar html desde un archivo ejs
+*eplica que es ejs y para que se utiliza
+*pasa variables desde ejs templates
+
+PRIMEROS PASOS A HACER
+
+*ejecutamos npm init 
+creamos archivo app.js
+*npm install express
+*npm install ejs --save

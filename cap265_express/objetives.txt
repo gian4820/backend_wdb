@@ -1,0 +1,16 @@
+=================
+INTRO TO EXPRESS
+=================
+
+*QUE ES UN FRAMEWORK?
+Simplificando mucho podríamos decir que nuestro código llama a las funciones de una librería
+mientras que un framework llamará a nuestro código, que sería algo así como piezas integradas 
+en su estructura.
+
+*QUE ES EXPRESS?
+Es un framework para crear aplicaciones web y APIs, gratis Open Source, Se le ha llamado el framework
+de servidor estándar de facto para Node.js. Express es una infraestructura de aplicaciones web Node.js
+
+*PORQUE USAMOS EXPRESS?
+Porque tiene buen rendimiento, es gratis, tiene soporte, mucha gente escribe el framework
+Minimalista, y flexible para web app y moviles 

@@ -1,0 +1,26 @@
+<%- include("partials/head") %>
+
+
+<h1>
+	You are feeling in love with: <%= variable.toUpperCase() %>.
+</h1>
+
+<% if (variable.toLowerCase() === "niza"){ %>
+<p>
+	Gran eleccion!
+</p>
+<% }  
+	else { %>
+<p>
+	Debiste haber elegido niza!
+</p>
+	
+<% } %>
+
+<p>
+	Este es un EJS File
+</p>
+
+
+<%- include("partials/foot") %>
+

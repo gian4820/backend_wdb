@@ -1,0 +1,13 @@
+Instalamos
+
+npm install request
+--------------------------------
+* vamos a la web 
+https://github.com/request/request
+para ver como se hace una request desde .js
+podemos hacer una request desde consola con:
+*curl http://www.google.com
+----------------------------------
+Luego hacemos request a una base de datos fantasma, de JSON placeholder...
+Va hacer falta instalar locus
+npm i -D locus@2.0.0

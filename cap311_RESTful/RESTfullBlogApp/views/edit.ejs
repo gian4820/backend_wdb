@@ -1,0 +1,32 @@
+<!-- incluimos el header html -->
+<%- include("partials/header") %>
+
+<div class="ui main text container segment">
+		<div class="ui huge header">Edit Post <%=blog.title%></div>
+	<form class="ui form" action="/blogs/<%=blog._id%>?_method=PUT" method="POST">
+		
+		<!--TITULO -->
+		<div class="field">
+			<label>Title</label>
+			<input type="text" name="blog[title]" value="<%= blog.title%>">
+		</div>
+		
+		<!--IMAGEN -->
+		<div class="field">
+			<label>Image</label>
+			<input type="text" name="blog[image]" value="<%= blog.image%>">
+		</div>
+		
+		<!--COMENTARIO -->
+		<div class="field">
+			<label>Blog Content</label>
+			<textarea name="blog[body]" ><%= blog.body%></textarea>
+		</div>
+		
+		<!--BOTON -->
+		<input class="ui violet basic button" type="submit">
+	</form>
+</div>
+
+<!-- incluimos el footer html -->
+<%- include("partials/footer") %>

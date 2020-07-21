@@ -1,0 +1,7 @@
+COMANDOS BASICOS
+
+ *touch asd.txt  :crea un archivo nuevo
+ *mkdir asd   :crea una carpeta asd
+ *rm asd.txt  : borra archivo asd.txt
+ *rm -rf asd   : borra carpeta asd
+ 

@@ -1,0 +1,41 @@
+<!-- incluimos el header html -->
+<%- include("partials/header") %>
+
+	<!------------- ESTA ES LA VENTANA SHOW ----------->
+
+<div class="ui main text container segment">
+	
+	<!-- TITULO -->
+	<div class="ui huge header"><%=blog.title%></div>
+	<div class="ui top attached">
+		<div class="item">
+			
+			<!-- IMAGEN -->
+			<img class="ui centered rounded image" src="<%=blog.image%>">
+			
+			<!-- FECHA -->
+			<div class="content">
+				<span><%=blog.created.toDateString()%></span>
+			</div>
+			
+			<!-- DESCRIPCION -->
+			<div class="description">
+				<p><%-blog.body%></p>	
+			</div>
+			
+			<!-- BOTON EDIT -->
+			<a class="ui green basic button" href="/blogs/<%=blog._id%>/edit">Edit</a>
+			
+			<!-- BOTON DELETE -->
+			<form id="delete" action="/blogs/<%=blog._id%>?_method=DELETE" method="POST">
+				<button class="ui red basic button">
+					Delete
+				</button>
+			</form>
+			
+		</div>
+	</div>
+</div>
+
+<!-- incluimos el footer html -->
+<%- include("partials/footer") %>
